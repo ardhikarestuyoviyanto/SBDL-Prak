@@ -19,7 +19,11 @@ Penjelasan
 2. Folder views =>  Sebagai views aplikasi "Jangan melakukan query di folder views", pada direktori ini anda hanya dapat melakukan request dan response data dengan memanggil method yang ada di folder php
 3. Folder php => Tempat eksekusi query dan menghandle response dan request dari views serta menentukan routing ke index.php, dengan perintah 
    header(location: menuju root direktori/nama-routing pada index.php)
-   
+
+#  Penjelasan Folder Lain-nya
+1. folder public untuk meletakan file css dan js (bootstrap)
+2. folder partisi => views/partisi, didalamnya terdapat konten yang sifatnya statis (yg selalu di include kan di halaman yang sama) misalnya head dan sidebar (selalu ada dihalaman yang sama pada admin) jika membuat views yang baru pada halaman admin jangan lupa include kan file di partisi. tujuan penggunaan folder partisi ini pada intinya hanya untuk mempersingkat dan menghindari perulangan kode.
+
 # Cara Berkontribusi
 1. git clone https://github.com/ardhikarestuyoviyanto/SBDL-Prak.git
 2. git pull => untuk nge-cek update dari aplikasi
