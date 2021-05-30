@@ -91,7 +91,7 @@ switch($request){
 
         http_response_code(404);
 
-        echo "Ups Halaman Kosong";
+        echo "Ups Halaman Kosong | jangan lupa kalau jalanin pakek perintah php -S localhost:8080";
 
     break;
 
