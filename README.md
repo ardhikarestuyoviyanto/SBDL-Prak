@@ -20,7 +20,7 @@ Penjelasan
 3. Folder php => Tempat eksekusi query dan menghandle response dan request dari views serta menentukan routing ke index.php, dengan perintah 
    header(location: menuju root direktori/nama-routing pada index.php)
 
-#  Penjelasan Folder Lain-nya
+#  Penjelasan Folder Yang Lain
 1. folder public untuk meletakan file css dan js (bootstrap)
 2. folder partisi => views/partisi, didalamnya terdapat konten yang sifatnya statis (yg selalu di include kan di halaman yang sama) misalnya head dan sidebar (selalu ada dihalaman yang sama pada admin) jika membuat views yang baru pada halaman admin jangan lupa include kan file di partisi. tujuan penggunaan folder partisi ini pada intinya hanya untuk mempersingkat dan menghindari perulangan kode.
 
@@ -28,4 +28,5 @@ Penjelasan
 1. git clone https://github.com/ardhikarestuyoviyanto/SBDL-Prak.git
 2. git pull => untuk nge-cek update dari aplikasi
 3. git add .
-4. git push (buat branch baru ketika anda melakukan push)
+4. git commit -m "keterangan update"
+5. git push (buat branch baru ketika anda melakukan push)
