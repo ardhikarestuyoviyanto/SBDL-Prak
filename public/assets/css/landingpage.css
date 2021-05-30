@@ -1,0 +1,17 @@
+.card-login:hover {
+background-color: #051702;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+color: #dfdfdc;
+}
+.card-login, .card-visimisi{
+color : #051702;
+background-color: #f7f7f7;
+}
+.title{
+color: dimgray;
+font-size: 39px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
