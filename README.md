@@ -1,5 +1,13 @@
-# SBDL-Prak
+# Tugas Besar SBDL-Prak
 Aplikasi Manajemen Data Perpustakaan SBDL Prak
+
+# Tampilan Aplikasi
+
+![1](https://user-images.githubusercontent.com/61740978/120602404-2ec7dd00-c475-11eb-85c3-72c601b6e507.PNG)
+![2](https://user-images.githubusercontent.com/61740978/120602438-37b8ae80-c475-11eb-9c7d-0a31c7ec2291.PNG)
+![3](https://user-images.githubusercontent.com/61740978/120602452-3b4c3580-c475-11eb-9f1b-e68ef3ac0593.PNG)
+![4](https://user-images.githubusercontent.com/61740978/120602469-3e472600-c475-11eb-8783-06871f6ead90.PNG)
+
 
 # Instalasi
 
