@@ -28,7 +28,7 @@ class Auth{
 
                     //login sukses
 
-                    $this->CreateSession($row->nama_petugas);
+                    $this->CreateSession($row->nama_petugas, $row->id_petugas);
 
                     header('location:../dashboard');
 
@@ -53,11 +53,12 @@ class Auth{
 
     }
 
-    public function CreateSession($nama_petugas){
+    public function CreateSession($nama_petugas, $id_petugas){
 
         $data = array(
             'username' => $_POST['username'],
-            'nama_petugas' => $nama_petugas
+            'nama_petugas' => $nama_petugas,
+            'id_petugas' => $id_petugas
         );
 
         $_SESSION['login'] = $data;

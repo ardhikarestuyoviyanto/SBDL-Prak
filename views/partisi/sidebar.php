@@ -17,15 +17,21 @@
     </h6>
     <ul class="nav flex-column mb-2">
         <li class="nav-item">
-        <a class="nav-link lh-tight" href="/pengguna">
+        <a class="nav-link lh-tight" href="/petugas">
         <i class="fas fa-user-tie"></i>
-            Data Pengguna
+            Data Petugas
         </a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="/anggota">
         <i class="fas fa-users"></i>
         Data Anggota
+        </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/kategoribuku">
+        <i class="fas fa-swatchbook"></i>
+            Kategori Buku
         </a>
         </li>
         <li class="nav-item">
@@ -44,21 +50,15 @@
     </h6>
     <ul class="nav flex-column mb-2">
         <li class="nav-item">
-        <a class="nav-link" href="/peminjaman">
+        <a class="nav-link" href="/transaksi">
         <i class="fas fa-money-check"></i>
-            Peminjaman
+            Transaksi
         </a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="/pengembalian">
-        <i class="fas fa-book-reader"></i>
-            Pengembalian
-        </a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="/denda">
+        <a class="nav-link" href="/keuangan">
         <i class="fas fa-funnel-dollar"></i>
-            Denda
+            Keuangan
         </a>
         </li>
     </ul>

@@ -55,8 +55,12 @@ switch($request){
         require __DIR__ . '/views/admin/masterdata/buku.php';
         break;
 
-    case '/pengguna' :
-        require __DIR__ . '/views/admin/masterdata/pengguna.php';
+    case '/kategoribuku' :
+        require __DIR__ . '/views/admin/masterdata/kategoribuku.php';
+        break;
+
+    case '/petugas' :
+        require __DIR__ . '/views/admin/masterdata/petugas.php';
         break;
 
     //end router master data
@@ -64,16 +68,12 @@ switch($request){
 
     //router transaksi
 
-    case '/denda' :
-        require __DIR__ . '/views/admin/transaksi/denda.php';
+    case '/keuangan' :
+        require __DIR__ . '/views/admin/transaksi/keuangan.php';
         break;
 
-    case '/peminjaman' :
-        require __DIR__ . '/views/admin/transaksi/peminjaman.php';
-        break;
-
-    case '/pengembalian' :
-        require __DIR__ . '/views/admin/transaksi/pengembalian.php';
+    case '/transaksi' :
+        require __DIR__ . '/views/admin/transaksi/transaksi.php';
         break;
 
     //end router transaksi

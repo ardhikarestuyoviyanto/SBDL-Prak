@@ -30,3 +30,7 @@ Penjelasan
 3. git add .
 4. git commit -m "keterangan update"
 5. git push (buat branch baru ketika anda melakukan push)
+
+
+# Update
+1. Timpakan File TAMBAHAN_QUERY.sql ke database dbk_perpus.sql

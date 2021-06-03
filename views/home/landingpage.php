@@ -49,29 +49,17 @@
             <div class="content mt-5">
               <div class="container">
                 <div class="row justify-content-md-center">
-    
-                  <div class="col col-lg-4">
+
                     <a href="login">
                     <div class="card card-login" style="height: 14rem;">
                       <div class="card-body">
                         <p class="card-text">
-                          <h3 class="text-center"><i class="fas fa-user-tie fa-3x"></i></h3>
-                          <h3 class="text-center" id="text">Login Admin</h3>
+                          <h3 class="text-center"><i class="fas fa-users fa-3x"></i></h3>
+                          <h3 class="text-center" id="text">Login Aplikasi</h3>
                         </p>
                       </div>
                     </div>
                     </a>
-                  </div>
-                  <div class="col col-lg-4">
-                    <a href="">
-                    <div class="card card-login" style="height: 14rem;">
-                      <div class="card-body">
-                          <h3 class="text-center mt-2"><i class="fas fa-users fa-3x"></i></h3>
-                          <h3 class="text-center">Daftar Peminjam</h3>
-                      </div>
-                    </div>
-                    </a>
-                  </div>
     
                 </div>
               </div>
@@ -82,8 +70,7 @@
             - Visi Perpustakaan -
           </div>
           <div class="card-body">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut voluptatem incidunt iste magnam, veniam quisquam quidem consectetur non explicabo. Expedita facere iusto qui beatae corrupti nostrum quo mollitia odio laborum.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ullam itaque natus repellat recusandae? Quae, sit nam obcaecati ea id totam nulla necessitatibus quibusdam perspiciatis, maiores provident tempora adipisci similique!
+          Menciptakan lulusan dan tamatan yang beriman dan bertakwa kepada Tuhan Yang Maha Esa, berbudi luhur, berakhlak mulia, cerdas, serta menguasai ilmu pengetahuan dan teknologi sebagai aset bangsa dan negara.
             </div>
         </div>
     
@@ -92,8 +79,13 @@
             - Misi Perpustakaan -
           </div>
           <div class="card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem in debitis porro modi, consequuntur expedita. Nihil dignissimos nisi alias nemo non autem repellat? Nam saepe non quae repudiandae, labore rerum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sequi cupiditate odio doloremque provident nesciunt eveniet neque voluptatem soluta, molestiae at accusantium, numquam hic quibusdam harum repellat aut perspiciatis veritatis?
+            1. Meningkatkan kesadaran terhadap warisan budaya, apresiasi seni, dan hasil temuan ilmiah<br>
+            2. Menyediakan akses pada ekspresi-ekspresi kebudayaan dan perubahan<br>
+            3. Mendorong dialog antar umat beragama oleh karena keaneka ragaman budaya<br>
+            4. Menyediakan layanan informasi sesuai dengan kebutuhan pemakainya<br>
+            5. Memberikan kemudahan kepada pengembangan informasi peningkatan ilmu pengetahuan dan keterampilan<br>
+            6. Mendukung dan berpartisipasi dalam program-program perpustakaan bagi masyarakat pemakainya<br>
+            7. Ikut serta dalam upaya mencerdaskan kehidupan bangsa dalam arti luas<br>
           </div>
         </div>
         </div>
