@@ -28,7 +28,7 @@ $Data = $Dashboard->getData();
       <h6>Jumlah Buku</h6>
       </div>
       <div class="card-body">
-        <h3><i class="fas fa-book"></i> <?= $Data['buku']; ?>  Buku</h3>
+        <h3><i class="fas fa-book"></i> <?php if(!empty($Data['buku'])): echo $Data['buku']; endif; ?>  Buku</h3>
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@ $Data = $Dashboard->getData();
       <h6>Total Anggota</h6>
       </div>
       <div class="card-body">
-        <h3><i class="fas fa-user"></i><?= $Data['anggota']; ?> Anggota</h3>
+        <h3><i class="fas fa-user"></i><?php if(!empty($Data['anggota'])): echo $Data['anggota']; endif; ?> Anggota</h3>
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@ $Data = $Dashboard->getData();
       <h6>Total Peminjam Aktif</h6>
       </div>
       <div class="card-body">
-        <h3><i class="fas fa-user-tag"></i> <?= $Data['peminjam']; ?> Peminjam</h3>
+        <h3><i class="fas fa-user-tag"></i> <?php if(!empty($Data['peminjam'])): echo $Data['peminjam']; endif; ?> Peminjam</h3>
       </div>
     </div>
   </div>
@@ -58,7 +58,7 @@ $Data = $Dashboard->getData();
       <h6>Total Petugas</h6>
       </div>
       <div class="card-body">
-        <h3><i class="fas fa-user-tie"></i> <?= $Data['petugas']; ?> Pentugas</h3>
+        <h3><i class="fas fa-user-tie"></i> <?php if(!empty($Data['petugas'])): echo $Data['petugas']; endif; ?> Petugas</h3>
       </div>
     </div>
   </div>
