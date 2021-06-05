@@ -33,6 +33,28 @@ class Keuangan{
 
     }
 
+    public function getBuku($id_buku){
+
+        $res = $this->db->query("SELECT judul_buku FROM buku");
+
+        while($row = $res->fetch_array()):
+
+            $data = $row;
+
+        endwhile;
+
+        if(empty($data)){
+
+            return null;
+
+        }else{
+
+            return $data;
+
+        }
+
+    }
+
 }
 
 $Keuangan = new Keuangan;

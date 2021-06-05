@@ -1,0 +1,9 @@
+-- MANAJEMEN USERS
+
+-- CREATE ADMIN USER
+
+CREATE USER 'adminperpus'@'localhost' IDENTIFIED BY 'admin123';
+
+-- MEMBERI SELURUH HAK AKSES PADA USERS ADMIN
+
+GRANT ALL PRIVILEGES ON dbk_perpus.* TO 'adminperpus'@'localhost';

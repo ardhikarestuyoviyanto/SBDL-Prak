@@ -66,7 +66,7 @@ $Auth->Proteksi();
                 <th scope="row"><?= $i++; ?></th>
                 <td><?= $x->nama_anggota; ?></td>
                 <td><?= $x->tgl_pengembalian; ?></td>
-                <td><?= $x->judul_buku; ?></td>
+                <td><?= $Keuangan->getBuku($x->id_buku)['judul_buku']; ?></td>
                 <td><?= "Rp. ".number_format($x->denda ,2,',','.'); ?></td>
               </tr>
               <?php $denda = $denda + $x->denda; ?>
