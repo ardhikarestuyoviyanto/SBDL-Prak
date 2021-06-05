@@ -1,6 +1,6 @@
 /*VIEW TABEL PETUGAS INNER JOIN PEMINJAM INNER JOIN PENGEMBALIAN*/
 
-/*SUB QUERY BUKU*/
+/*SUB QUERY TERHADAP TABEL BUKU*/
 
 CREATE OR REPLACE VIEW view_rekapitulasi AS
 SELECT nama_anggota, tgl_pengembalian, denda, peminjam.`id_buku` FROM anggota INNER JOIN peminjam 
